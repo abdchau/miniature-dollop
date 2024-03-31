@@ -1,0 +1,26 @@
+.topheading {
+    font-family: fantasy;
+    font-size: 250%;
+    font-weight: bold;
+    margin: 0;
+}
+
+.textdiv {
+    background-color: burlywood;
+    margin-left: 1%;
+    margin-right: 51%;
+    padding: 1%;
+    margin-bottom: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media screen and (orientation: portrait) {
+    .textdiv {
+        margin-right: 1%;
+        font-size: 200%;
+    }
+
+    .topheading {
+        font-size: 500%;
+    }
+}
